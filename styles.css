@@ -226,7 +226,8 @@ main {
     h1, .span-h1 {
         font-size: 2rem;
         text-align: center;
-        margin-top: -20px;
+        margin-top: 10px;
+        margin-bottom: -30px;
     }
 
     h2 {
@@ -248,12 +249,18 @@ main {
         gap: 1rem;
     }
 
-    .home-content,
     .download {
         flex-direction: column;
         height: auto;
         padding: 2rem 1rem;
         text-align: center;
+    }
+    .home-content {
+        border-radius: 30px;
+        flex-direction: column;
+        padding: 2rem 1rem;
+        text-align: center;
+        height: auto;
     }
 
     .download-content,
