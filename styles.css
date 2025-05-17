@@ -5,14 +5,20 @@
 }
 
 body {
-    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    background: -webkit-linear-gradient(90deg, #ffffff, #dbdad4);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(120deg, #ffffff, #dbdad4);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: black;
 }
-
 
 h1 {
     font-size: 3rem;
     color: black;
+}
+
+.logo {
+    text-decoration: none;;
 }
 
 .span-h1 {
@@ -89,7 +95,7 @@ main {
     padding: 6rem;
     padding-top: 0px;
     padding-bottom: 0px;
-    background-color: #dddddd;
+    background-color: rgba(236, 171, 7, 0.037);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
 }
@@ -103,7 +109,7 @@ main {
     padding-bottom: 0px;
 }
 
-.app-models {   
+.app-models {
     height: auto;
     object-fit: cover;
     animation: flutuar 3s ease-in-out infinite;
@@ -163,6 +169,7 @@ main {
 .icon-ios {
     margin: -2px;
 }
+
 .icon-android {
     margin: -2px;
 }
@@ -212,18 +219,43 @@ main {
     align-items: center;
 }
 
+.contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+        padding: 1rem;
+        background-color: rgb(236, 171, 7);
+        color: black;
+        text-align: center;
+        margin-top: 0px;
+        box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+.wrapper {
+    flex: 1;
+}
+
+
 @keyframes flutuar {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translateY(0);
     }
+
     50% {
         transform: translateY(-20px);
     }
-    
+
 }
 
 @media (max-width: 768px) {
-    h1, .span-h1 {
+
+    h1,
+    .span-h1 {
         font-size: 2rem;
         text-align: center;
         margin-top: 10px;
@@ -255,11 +287,13 @@ main {
         padding: 2rem 1rem;
         text-align: center;
     }
+
     .home-content {
         border-radius: 30px;
         flex-direction: column;
         padding: 2rem 1rem;
         text-align: center;
+        background-color: #dddddd3e;
         height: auto;
     }
 
@@ -277,7 +311,8 @@ main {
         padding: 1rem;
     }
 
-    .home-text, .p-download {
+    .home-text,
+    .p-download {
         font-size: 1rem;
         padding: 1rem;
         margin: 0;
@@ -306,5 +341,13 @@ main {
         padding: 1rem;
         height: auto;
     }
-}
 
+    footer {
+    padding: 1rem;
+    background-color: rgb(236, 171, 7);
+    color: black;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+}
