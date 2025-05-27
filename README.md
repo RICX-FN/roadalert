@@ -46,8 +46,5 @@ Com foco na **segurança**, **rapidez na informação** e **colaboração da com
 
 ## 📸 Capturas de tela
 
-Adicione aqui imagens da interface do app ou site (opcional):
-
-
 ![Captura de Ecrã (94)](https://github.com/user-attachments/assets/2e3a6f2c-caa8-412f-be60-27d9b61d2398)
 
