@@ -25,7 +25,7 @@ Com foco na **segurança**, **rapidez na informação** e **colaboração da com
 
 ## 🔗 Acesse o site oficial
 
-👉 [Clique aqui para acessar o site oficial e baixar o aplicativo]([https://seu-site-aqui.com](https://ricx-fn.github.io/roadalert/index.html))
+👉 [Clique aqui para acessar o site oficial e baixar o aplicativo](https://ricx-fn.github.io/roadalert/index.html)
 
 > O site é totalmente responsivo e pode ser acessado via dispositivos móveis e computadores.
 
